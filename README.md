@@ -1,18 +1,107 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Bader Altalhi
 
-Currently, two official plugins are available:
+### Cost Engineer • Software Engineer • AI Engineer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A multidisciplinary engineer specializing in Cost Engineering, Software Engineering, Artificial Intelligence, Project Controls, and Data Analytics.
 
-## React Compiler
+🌐 **Live Portfolio:** https://bader-alt-portfolio.vercel.app
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+</div>
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+# About
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This repository contains the source code for my personal portfolio website.
+
+The portfolio showcases my professional experience, technical expertise, certifications, and software engineering projects through a modern, responsive, and interactive web application.
+
+---
+
+# Features
+
+- Modern and responsive design
+- Smooth scrolling navigation
+- Interactive UI animations
+- Professional experience timeline
+- Skills and technologies showcase
+- Certifications section
+- Software engineering project showcase
+- Contact section
+
+---
+
+# Technologies
+
+| Frontend | Tools |
+|----------|-------|
+| React | Git |
+| Vite | GitHub |
+| JavaScript | Vercel |
+| HTML5 | VS Code |
+| CSS3 | Framer Motion |
+
+---
+
+# Project Structure
+
+```text
+src
+├── assets
+├── components
+├── styles
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+# Run Locally
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start development server
+
+```bash
+npm run dev
+```
+
+Build production version
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+# Live Website
+
+https://bader-alt-portfolio.vercel.app
+
+---
+
+# Connect With Me
+
+- LinkedIn
+- GitHub
+- Email
+
+---
+
+# License
+
+This project is intended for portfolio and professional presentation purposes only.
+
+© 2026 Bader Altalhi. All Rights Reserved.
