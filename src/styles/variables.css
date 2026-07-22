@@ -1,0 +1,51 @@
+:root {
+
+  /* ===========================
+     COLORS
+  =========================== */
+
+  --background: #06060a;
+  --surface: rgba(17, 17, 24, .72);
+  --surface-border: rgba(255,255,255,.08);
+
+  --primary: #8B5CF6;
+  --primary-light: #A970FF;
+  --primary-dark: #6D28D9;
+
+  --text: #F8F8FF;
+  --text-secondary: #B8B8C7;
+  --text-muted: #7C7C92;
+
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+
+  /* ===========================
+     SHADOWS
+  =========================== */
+
+  --shadow-sm: 0 8px 20px rgba(0,0,0,.25);
+
+  --shadow-md: 0 18px 45px rgba(0,0,0,.35);
+
+  --shadow-lg: 0 25px 80px rgba(139,92,246,.18);
+
+  /* ===========================
+     BORDER RADIUS
+  =========================== */
+
+  --radius-sm: 10px;
+
+  --radius-md: 18px;
+
+  --radius-lg: 28px;
+
+  --radius-xl: 40px;
+
+  /* ===========================
+     TRANSITIONS
+  =========================== */
+
+  --transition: .35s ease;
+
+}
