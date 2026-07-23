@@ -232,12 +232,24 @@
 ========================= */
 
 @media (max-width: 768px) {
+  .loader {
+    isolation: isolate;
+    overflow: hidden;
+  }
+
   .loader-scene {
     width: 100%;
   }
 
   .loader-card-container {
-  width: min(520px, 82vw);
+    width: min(520px, 82vw);
+    will-change: transform;
+    backface-visibility: hidden;
+  }
+
+  .loader-card-image {
+    filter: none;
+    backface-visibility: hidden;
   }
 
   .loader-animation-layer {
@@ -246,6 +258,7 @@
 
   .loader-network-path {
     stroke-width: 4;
+    filter: none;
   }
 
   .loader-impact-glow {
