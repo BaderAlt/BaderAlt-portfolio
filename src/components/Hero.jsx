@@ -2,6 +2,22 @@ import { motion } from "framer-motion";
 import profileImage from "../assets/bader-profile.jpg";
 
 function Hero() {
+  const scrollToSection = (event, sectionId) => {
+    event.preventDefault();
+
+    const section = document.getElementById(sectionId);
+
+    if (!section) return;
+
+    const sectionPosition =
+      section.getBoundingClientRect().top + window.scrollY + 75;
+
+    window.scrollTo({
+      top: sectionPosition,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <main id="home" className="hero">
       <div className="hero-content">
@@ -62,11 +78,19 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.38, duration: 0.45 }}
         >
-          <a href="#projects" className="button button-primary">
+          <a
+            href="#projects"
+            className="button button-primary"
+            onClick={(event) => scrollToSection(event, "projects")}
+          >
             View Projects
           </a>
 
-          <a href="#contact" className="button button-secondary">
+          <a
+            href="#contact"
+            className="button button-secondary"
+            onClick={(event) => scrollToSection(event, "contact")}
+          >
             Contact Me
           </a>
         </motion.div>
