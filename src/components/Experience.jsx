@@ -41,9 +41,9 @@ const experiences = [
   },
   {
     period: "06/2024 — 08/2024",
-    role: "Software Engineering Intern",
+    role: "Software Engineer Intern",
     company: "Smart Methods",
-    project: "420-Hour Software Engineering Internship",
+    project: "420-Hour Software Engineer Internship",
     description:
       "Completed a structured 420-hour software engineering internship focused on web development, software implementation, and natural language processing. Supported requirements understanding, solution design, coding, testing, debugging, documentation, and implementation in a practical project-based environment. Developed and enhanced web components using front-end and back-end development concepts while following maintainable coding and user-interface practices. Applied natural language processing concepts in practical exercises and real project environments. Collaborated with technical teams, followed defined development tasks and timelines, and contributed to commercially applicable software implementations. Strengthened experience in problem-solving, version-controlled development, API integration, database-driven applications, and end-to-end software delivery.",
     tags: [
